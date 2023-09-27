@@ -1,0 +1,16 @@
+.open scane1
+
+
+CREATE TABLE nutrients
+(
+id varchar(10) NOT NULL,
+s1 char(1),s2 char(1),s3 char(1),s4 char(1),s5 char(1)
+);
+
+CREATE TABLE regulators
+(
+id varchar(10) NOT NULL,
+s1 char(1),s2 char(1),s3 char(1),s4 char(1),s5 char(1)
+);
+
+In the dataset, AN stands for Applied as Needed.  NA stands for Not Applied.  MN stands for more than Needed.
